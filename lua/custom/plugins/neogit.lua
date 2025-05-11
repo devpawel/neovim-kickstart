@@ -15,9 +15,9 @@ return {
       {
         '<leader>no',
         function()
-          require('neogit').open { kind = 'floating' }
+          require('neogit').open { kind = 'replace' }
         end,
-        desc = '[N]eogit [O]pen in floating window',
+        desc = '[N]eogit [O]pen',
       },
       {
         '<leader>n;',

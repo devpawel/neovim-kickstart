@@ -168,6 +168,9 @@ vim.o.confirm = true
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
+vim.keymap.set('n', 'K', function()
+  vim.lsp.buf.hover { border = 'single' }
+end)
 vim.keymap.set('i', 'jk', '<Esc>')
 
 -- Clear highlights on search when pressing <Esc> in normal mode

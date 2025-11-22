@@ -106,7 +106,7 @@ vim.o.relativenumber = true
 
 -- Indent with 4 spaces by default
 vim.o.expandtab = true
-vim.o.shiftwidth = 4
+-- vim.o.shiftwidth = 2 -- Breaks guess-indent.nvim
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
